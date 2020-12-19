@@ -1,0 +1,28 @@
+$font: 15px;
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue:hsl(212, 86%, 64%);
+
+
+$VeryDarkBlue: hsl(234, 12%, 34%);
+$GrayishBlue: hsl(229, 6%, 66%);
+$VeryLightGray: hsl(0, 0%, 98%);
+
+@font-face{
+ font-family: 'poppins-light';
+ src: url('../poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face{
+ font-family: 'poppins-bold';
+ src: url('../poppins/Poppins-Regular.ttf');
+}
+
+@font-face{
+ font-family: 'poppins-extra-bold';
+ src: url('../poppins/Poppins-ExtraBold.ttf');
+}
+
+@import "global";
+@import "firstpart";
